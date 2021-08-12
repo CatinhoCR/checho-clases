@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+@import "icon-list";
+
+// Abstracts
+@import "abstracts/variables";
+
+// Base
+@import "base/normalize";
+@import "base/typography";
+
+
+// Components
+@import "components/services";
+
+.bi {
+  fill: currentColor;
+}

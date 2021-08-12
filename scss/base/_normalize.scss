@@ -1,0 +1,16 @@
+/**
+ * Global normalize/reset styles
+ * Inspiired by: https://github.com/sindresorhus/modern-normalize
+ */
+
+/*
+Use a better box model
+*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

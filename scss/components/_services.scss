@@ -1,0 +1,38 @@
+.services {
+  padding: 40px;
+  background-color: #f7f7f7;
+
+  .intro {
+    text-align: center;
+  }
+
+  .icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid $blue;
+    border-radius: 50%;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    color: $blue;
+  }
+
+  p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+.service-card {
+  text-align: center;
+
+  .title {
+    text-transform: uppercase;
+  }
+}
